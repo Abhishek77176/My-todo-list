@@ -1,0 +1,71 @@
+body{
+    background-color: #C5DFF8;
+}
+#add-section{
+    height: 100px;
+    background-color: #6527BE;
+    border-radius: 20px;
+}
+.addition{
+    display: inline-block;
+    font-size: 30px;
+}
+#add{
+    height: 35px;
+    width: 900px;
+    border :2px solid blue;
+    border-radius: 50px;
+    font-size: 20px;
+}
+#myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:14px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+#myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+#myButton:active {
+	position:relative;
+	top:1px;
+}
+.task-section{
+    background-color: #ffffff;
+}
+.task{
+    background-color: #9681EB;
+    height:60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.task_text{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.btn{
+    margin-left: 1100px;
+    height: 25px;
+    width: 25px;
+}
+.completed {
+    text-decoration: line-through;
+}
+  
